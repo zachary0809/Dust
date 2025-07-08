@@ -1,0 +1,27 @@
+{
+  "name": "dust",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsc && node dist/src/index.js",
+    "test": "tsc && node dist/test/request_data.js"
+  },
+  "devDependencies": {
+    "@mayanfinance/wormhole-sdk-route": "^1.16.0",
+    "@robbyawaldi/json-to-interface": "^1.0.2",
+    "@wormhole-foundation/sdk": "^2.3.0",
+    "@wormhole-foundation/sdk-algorand": "^2.2.0",
+    "@wormhole-foundation/sdk-connect": "^2.2.0",
+    "@wormhole-foundation/sdk-evm": "^2.2.0",
+    "@wormhole-foundation/sdk-solana": "^2.2.0",
+    "axios": "^1.10.0",
+    "decimal.js": "^10.5.0",
+    "https-proxy-agent": "^7.0.6",
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.8.3"
+  }
+}
